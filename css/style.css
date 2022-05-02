@@ -14,6 +14,7 @@ GENERAL STYLES
     --secondary-color: #0084FD;
     --secondary-light-color: #B5DDFF;
     --tertiary-color: #FDC160;
+    --footer-color: #333333;
 }
 
 body {
@@ -26,6 +27,13 @@ UTILITIES
 
 /* LAYOUT */
 
+.site-header {
+    position: sticky;
+    top: 0;
+/* SOLO PER DEBUG */
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
 .section {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -38,7 +46,7 @@ UTILITIES
     padding-right: 1rem;
 
       /* SOLO PER DEBUG */
-    border: 1px dashed red;
+    border: 1px dashed blue;
     padding-top: 2rem;
     padding-bottom: 2rem;
     
@@ -55,3 +63,43 @@ UTILITIES
 .bg-secondary-light {
     background-color: var(--secondary-light-color);
 }
+
+.bg-footer {
+    background-color: var(--footer-color) ;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.col-1 {
+    flex-basis: calc((100% - 2rem) / 3);
+}
+
+.col-2 {
+    flex-basis: calc(((100% - 1rem) / 3) * 2);
+}
+
+.col-3 {
+    flex-basis: 100%;
+}
+
+.card {
+    /* SOLO PER DEBUG */
+    background-color: var(--secondary-light-color);
+    border-radius: 1rem;
+    min-height: 100px;
+}
+
