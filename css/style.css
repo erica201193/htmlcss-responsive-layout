@@ -1,0 +1,57 @@
+/*---------------------------------------------------------
+GENERAL STYLES 
+----------------------------------------------------------*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #9792E4;
+    --secondary-color: #0084FD;
+    --secondary-light-color: #B5DDFF;
+    --tertiary-color: #FDC160;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------------------------------------------------------
+UTILITIES 
+----------------------------------------------------------*/
+
+/* LAYOUT */
+
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    width: 964px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+      /* SOLO PER DEBUG */
+    border: 1px dashed red;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-secondary-light {
+    background-color: var(--secondary-light-color);
+}
