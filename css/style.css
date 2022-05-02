@@ -25,32 +25,7 @@ body {
 UTILITIES 
 ----------------------------------------------------------*/
 
-/* LAYOUT */
-
-.site-header {
-    position: sticky;
-    top: 0;
-/* SOLO PER DEBUG */
-padding-top: 2rem;
-padding-bottom: 2rem;
-}
-.section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.container {
-    width: 964px;
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-
-      /* SOLO PER DEBUG */
-    border: 1px dashed blue;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    
-}
+/* COLORS PALETTE */
 
 .bg-primary {
     background-color: var(--primary-color);
@@ -68,6 +43,32 @@ padding-bottom: 2rem;
     background-color: var(--footer-color) ;
 }
 
+/* LAYOUT */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    /* SOLO PER DEBUG */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    width: 964px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    /* SOLO PER DEBUG */
+    border: 1px dashed blue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
 
 .row {
     display: flex;
